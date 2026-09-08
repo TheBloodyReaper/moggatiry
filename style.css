@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0c10;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-section {
+    margin-bottom: 30px;
+}
+
+.tg-button {
+    display: inline-block;
+    background-color: #0088cc;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.tg-button:hover {
+    background-color: #00a8ff;
+    transform: translateY(-2px);
+}
+
+/* Секция "О нас" */
+.about-section {
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.feature-card {
+    background-color: #1f2833;
+    border: 1px solid #1f2833;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: #45f3ff;
+}
+
+.feature-card h3 {
+    color: #45f3ff;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.feature-card p {
+    color: #c5c6c7;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #e53935;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #45f3ff;
+}
+
+/* Карточки игроков */
+.roster {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.player-card {
+    background-color: #1f2833;
+    border: 1px solid #1f2833;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+    border-color: #e53935;
+}
+
+.player-avatar {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background-color: #0b0c10;
+}
+
+.player-card h3 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+    word-wrap: break-word;
+}
+
+.role {
+    color: #c5c6c7;
+    font-size: 0.85rem;
+}
+
+.staff-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coach-card {
+    border-color: #45f3ff;
+}
+
+.coach-card:hover {
+    border-color: #66fcf1;
+}
+
+.main-logo {
+    font-size: 3.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #e53935;
+    text-shadow: 0 0 20px rgba(229, 57, 53, 0.6);
+    margin-bottom: 25px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.dota-icon {
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(0 0 10px rgba(229, 57, 53, 0.8));
+}
+
+.main-logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-shadow: 0 0 15px #e53935, 0 0 30px #e53935;
+    margin: 0;
+}
