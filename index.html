@@ -25,66 +25,76 @@
             </a>
         </div>
 
-        <section class="about-section">
-            <h2>О нашей команде</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <h3>Кто мы</h3>
-                    <p>Молодая команда по Dota 2 поклоняющаяся фонбету и фрибетам.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Приоритеты</h3>
-                    <p>Сотрудничество с фонбетом и выход хотя бы в International.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Наши морали</h3>
-                    <p>Взаимное неуважение внутри команды и непонимание целей. И признавание величества фонбета.</p>
-                </div>
-            </div>
-        </section>
-
-        <h1>Наш звездный состав</h1>
-
-        <div class="roster">
-            <div class="player-card">
-                <img src="images/vlad.jpg" alt="voorchit" class="player-avatar">
-                <h3>Влад «voorchit» Юрищев</h3>
-                <p class="role">Carry (Pos 1)</p>
-            </div>
-
-            <div class="player-card">
-                <img src="images/kirill.jpg" alt="kvashinoo" class="player-avatar">
-                <h3>Кирилл «kvashinoo» Буданов</h3>
-                <p class="role">Mid (Pos 2)</p>
-            </div>
-
-            <div class="player-card">
-                <img src="images/pasha.jpg" alt="jopaa" class="player-avatar">
-                <h3>Павел «jopaa» Бирюков</h3>
-                <p class="role">Offlane (Pos 3)</p>
-            </div>
-
-            <div class="player-card">
-                <img src="images/lukin.jpg" alt="yporny" class="player-avatar">
-                <h3>Константин «yporny» Лукин</h3>
-                <p class="role">Soft Support (Pos 4)</p>
-            </div>
-
-            <div class="player-card">
-                <img src="images/popovich2.jpg" alt="osiyol" class="player-avatar">
-                <h3>Константин «osiyol» Попов</h3>
-                <p class="role">Hard Support (Pos 5)</p>
-            </div>
+        <div class="tabs-nav">
+            <button class="tab-btn active" data-tab="about">О нас</button>
+            <button class="tab-btn" data-tab="roster">Состав</button>
         </div>
 
-        <section class="staff-section">
-            <h2>Тренер основной команды</h2>
-            <div class="player-card coach-card">
-                <img src="images/coach.jpg" alt="pobedaun" class="player-avatar">
-                <h3>Илья «pobedaun» Молодкин</h3>
-                <p class="role">Coach</p>
+        <div id="about" class="tab-content active">
+            <section class="about-section">
+                <h2>О нашей команде</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Кто мы</h3>
+                        <p>Молодая команда по Dota 2 поклоняющаяся фонбету и фрибетам.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Приоритеты</h3>
+                        <p>Сотрудничество с фонбетом и выход хотя бы в International.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Наши морали</h3>
+                        <p>Взаимное неуважение внутри команды и непонимание целей. И признавание величества фонбета.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="roster" class="tab-content">
+            <h2>Наш звездный состав</h2>
+
+            <div class="roster">
+                <div class="player-card">
+                    <img src="images/vlad.jpg" alt="voorchit" class="player-avatar">
+                    <h3>Влад «voorchit» Юрищев</h3>
+                    <p class="role">Carry (Pos 1)</p>
+                </div>
+
+                <div class="player-card">
+                    <img src="images/kirill.jpg" alt="kvashinoo" class="player-avatar">
+                    <h3>Кирилл «kvashinoo» Буданов</h3>
+                    <p class="role">Mid (Pos 2)</p>
+                </div>
+
+                <div class="player-card">
+                    <img src="images/pasha.jpg" alt="jopaa" class="player-avatar">
+                    <h3>Павел «jopaa» Бирюков</h3>
+                    <p class="role">Offlane (Pos 3)</p>
+                </div>
+
+                <div class="player-card">
+                    <img src="images/lukin.jpg" alt="yporny" class="player-avatar">
+                    <h3>Константин «yporny» Лукин</h3>
+                    <p class="role">Soft Support (Pos 4)</p>
+                </div>
+
+                <div class="player-card">
+                    <img src="images/popovich2.jpg" alt="osiyol" class="player-avatar">
+                    <h3>Константин «osiyol» Попов</h3>
+                    <p class="role">Hard Support (Pos 5)</p>
+                </div>
             </div>
-        </section>
+
+            <section class="staff-section">
+                <h2>Тренер основной команды</h2>
+                <div class="player-card coach-card">
+                    <img src="images/coach.jpg" alt="pobedaun" class="player-avatar">
+                    <h3>Илья «pobedaun» Молодкин</h3>
+                    <p class="role">Coach</p>
+                </div>
+            </section>
+        </div>
+
     </main>
 
     <script src="script.js"></script>

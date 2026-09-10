@@ -213,3 +213,42 @@ h2 {
         height: 300px;
     }
 }
+
+.tabs-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.tab-btn {
+    background-color: #1f2833;
+    color: #ffffff;
+    border: 2px solid #1f2833;
+    padding: 12px 28px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tab-btn:hover {
+    border-color: #e53935;
+    color: #e53935;
+}
+
+.tab-btn.active {
+    background-color: #e53935;
+    border-color: #e53935;
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(229, 57, 53, 0.5);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
