@@ -252,3 +252,19 @@ h2 {
 .tab-content.active {
     display: block;
 }
+
+.form-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #6d6c6c;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #45f3ff;
+    box-shadow: 0 0 15px rgba(254, 255, 255, 0.2);
+}
+
+.form-wrapper iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
